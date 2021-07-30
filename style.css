@@ -1,0 +1,103 @@
+button{
+
+  border: none;
+  outline: 0;
+
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 19%;
+  font-size: 18px;
+}
+
+button:hover a:hover{
+  opacity: 0.7;
+}
+
+.navbar{
+  display: flex;
+}
+
+.navbar a{
+  text-decoration:black;
+    color: gray;
+}
+.navbar a:hover{     
+text-decoration: solid;
+  text-decoration-color: darkgreen;
+}
+
+
+
+.fa{
+    padding:2%;
+    font-size:3%;
+    width:2%;
+    text-align:center;
+ 
+  }
+ .fa:hover{
+    opacity:0.7;  
+ }
+ .fa-facebook {
+   background:black;
+   color:white;
+ }
+ .fa-twitter{
+     background: black;
+     color: white;
+ }
+ .fa-instagram{
+   background:black;
+   color:white;
+ }
+ .fb {
+    background-color:black;
+    color: white;
+  }
+  
+  .twitter {
+    background-color:black;
+    color: white;
+  }
+
+  .fa{
+    padding:2%;
+    font-size:3%;
+    width:2%;
+    text-align:center;
+ 
+  }
+ .fa:hover{
+    opacity:0.7;  
+ }
+ .fa-facebook {
+   background:black;
+   color:white;
+ }
+ .fa-twitter{
+   background:black;
+   color:white;
+ }
+ .fa-instagram{
+   background:black;
+   color:white;
+ }
+
+ 
+ footer{
+   background-color: darkgray;
+   padding-top: 5%;
+   display: grid;
+ 
+ }
+
+.singh{
+  background-color: darkcyan;
+}
+
+.vivek{
+  float: left;
+}

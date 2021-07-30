@@ -1,0 +1,217 @@
+<html>
+<head>
+<title>DORM
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+<link rel="shortcut icon" href="vivek.png" type="image/gif">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header>
+<h1>DORM</h1>
+<nav role="navigation" arial-menu="main-menu">
+<ul class="navbar">
+<button><a href="index.html">Home</a></button>
+<button><a href="services.html">Services</a></button>
+
+<button><a href="aboutus.html">AboutUs</a></button>
+<button><a href="contactus.html">ContactUs</a></button>
+</ul>
+</nav>
+</header>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Varanasi</h1>
+</div>
+<div class="par">
+<p>
+Best Hostels Providing you with the best services by us in Varanasi.
+</p>
+</div>
+<div class="btns">
+<button class='btns_more'> <a href="varanasi.html">See more</a> </button>
+</div>
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src='varanasi.jpg'  alt="" class="container_img"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Kanpur</h1>
+</div>
+<div class="par">
+<p>
+Best Hostels Providing you with the best services by us in Kanpur.
+</p>
+</div>
+<div class="btns">
+<button class='btns_more'><a href="kanpur.html"> See more </a></button>
+</div>
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src='kanpur.jpg'  alt="" class="container_img"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Kota</h1>
+</div>
+<div class="par">
+<p>
+Best Hostels Providing you with the best services by us in Kota.
+</p>
+</div>
+<div class="btns">
+<button class='btns_more'><a href="kota.html"> See more</a> </button>
+</div>
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src='kota.jpg'  alt="" class="container_img"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Noida</h1>
+</div>
+<div class="par">
+<p>
+Best Hostels Providing you with the best services by us in Noida.
+</p>
+</div>
+<div class="btns">
+<button class='btns_more'><a href="noida"> See more</a> </button>
+</div>
+</div>
+</div>
+ <div class="container_outer_img">
+ <div class="img-inner">
+ <img src='Noida.jpg'  alt="" class="container_img"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+</div>
+
+
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot"  onclick="currentSlide(5)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+</main>
+
+<main class="singh">
+
+
+<center>
+<h2>About Us </h2>
+<i>We are team of young people ,Who are focused on our aim and not affraid of being<br>
+different.We created this platform because when I was going seek admission away from<br>
+my residency then i faced a lots off probems on finding the hostel and P.G so, We decided<br>
+to create a unique platform. On which we can book best service providing hostels and P.G<br>
+at Affordable rate.</i>
+</center>
+</main>
+
+
+
+
+
+
+
+<footer>
+<center>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com/home.php" class="fa fa-facebook"></a>
+<a href="https://twitter.com" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+<p><a href="contactus.html">Contact Us</a><br>
+Email id:support@dormhostel.com<br>
+Contact No. : 9305016868 , 9682271989</p>
+&copy;All copyright reserved since 2020
+</center>
+</footer>
+
+
+
+</body>
+</html>

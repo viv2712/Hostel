@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>DORM
+</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style1.css">
+<link rel="shortcut icon" href="vivek.png" type="image/gif">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</haed>
+<body>
+<header>
+<h1>DORM</h1>
+<nav role="navigation" arial-menu="main-menu">
+<ul class="navbar">
+<button><a href="index.html">Home</a></button>
+<button><a href="services.html">Services</a></button>
+
+<button><a href="aboutus.html">AboutUs</a></button>
+<button><a href="contactus.html">ContactUs</a></button>
+</ul>
+</nav>
+</header>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 2</div>
+  <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Boys Hostel</h1>
+</div>
+<div class="par">
+<p>
+All Hostels as given here for all the boys. 
+</p>
+</div>
+<div class="btns">
+<button class='btns_more'> <a href="boys.html">See more</a> </button>
+</div>
+</div>
+</div>
+<div class="container_outer_img">
+ <div class="img-inner">
+ <img src='college.jpg'  alt="" class="container_img"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+</div>
+
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 2</div>
+  <div class= 'container'>
+<div class="container_content">
+<div class="container_content_inner">
+<div class="title">
+  <h1>Girls Hostel</h1>
+</div>
+<div class="par">
+<p>
+All Hostels as given here for all the girls. 
+</p>
+</div>
+<div class="btns">
+<button class='btns_more'> <a href="girls.html">See more</a> </button>
+</div>
+</div>
+</div>
+<div class="container_outer_img">
+ <div class="img-inner">
+ <img src='college3.jpg'  alt="" class="container_img"/>
+       </div>
+     </div>
+  </div>
+<div class="overlay"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+</script>
+
+<footer>
+<center>
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<a href="https://www.facebook.com/home.php" class="fa fa-facebook"></a>
+<a href="https://twitter.com" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com" class="fa fa-instagram"></a>
+<p><a href="contactus.html">Contact Us</a><br>
+Email id:support@dormhostel.com<br>
+Contact No. : 9305016868 , 9682271989</p>
+&copy;All copyright reserved since 2020
+</center>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
